@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D823F9A1E22969000EDBF71 /* View4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D823F981E22969000EDBF71 /* View4.swift */; };
+		3D823F9B1E22969000EDBF71 /* View4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D823F991E22969000EDBF71 /* View4.xib */; };
+		3DFC866A1E1FB3C30030556C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC86691E1FB3C30030556C /* AppDelegate.swift */; };
+		3DFC866C1E1FB3C30030556C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC866B1E1FB3C30030556C /* ViewController.swift */; };
+		3DFC866F1E1FB3C30030556C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC866D1E1FB3C30030556C /* Main.storyboard */; };
+		3DFC86711E1FB3C30030556C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC86701E1FB3C30030556C /* Assets.xcassets */; };
+		3DFC86741E1FB3C30030556C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC86721E1FB3C30030556C /* LaunchScreen.storyboard */; };
+		3DFC867F1E1FB3C30030556C /* pH_MeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC867E1E1FB3C30030556C /* pH_MeterTests.swift */; };
+		3DFC868A1E1FB3C30030556C /* pH_MeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC86891E1FB3C30030556C /* pH_MeterUITests.swift */; };
+		3DFC86991E1FB57C0030556C /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC86971E1FB57C0030556C /* View1.swift */; };
+		3DFC869A1E1FB57C0030556C /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC86981E1FB57C0030556C /* View1.xib */; };
+		3DFC869D1E1FB7900030556C /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC869B1E1FB7900030556C /* View2.swift */; };
+		3DFC869E1E1FB7900030556C /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC869C1E1FB7900030556C /* View2.xib */; };
+		3DFC86A11E1FB7B70030556C /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC869F1E1FB7B70030556C /* View3.swift */; };
+		3DFC86A21E1FB7B70030556C /* View3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC86A01E1FB7B70030556C /* View3.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DFC867B1E1FB3C30030556C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DFC865E1E1FB3C30030556C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DFC86651E1FB3C30030556C;
+			remoteInfo = "pH Meter";
+		};
+		3DFC86861E1FB3C30030556C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DFC865E1E1FB3C30030556C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DFC86651E1FB3C30030556C;
+			remoteInfo = "pH Meter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D823F981E22969000EDBF71 /* View4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View4.swift; sourceTree = "<group>"; };
+		3D823F991E22969000EDBF71 /* View4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View4.xib; sourceTree = "<group>"; };
+		3DFC86661E1FB3C30030556C /* pH Meter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pH Meter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFC86691E1FB3C30030556C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DFC866B1E1FB3C30030556C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DFC866E1E1FB3C30030556C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DFC86701E1FB3C30030556C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DFC86731E1FB3C30030556C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DFC86751E1FB3C30030556C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFC867A1E1FB3C30030556C /* pH MeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pH MeterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFC867E1E1FB3C30030556C /* pH_MeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pH_MeterTests.swift; sourceTree = "<group>"; };
+		3DFC86801E1FB3C30030556C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFC86851E1FB3C30030556C /* pH MeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pH MeterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFC86891E1FB3C30030556C /* pH_MeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pH_MeterUITests.swift; sourceTree = "<group>"; };
+		3DFC868B1E1FB3C30030556C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFC86971E1FB57C0030556C /* View1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		3DFC86981E1FB57C0030556C /* View1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
+		3DFC869B1E1FB7900030556C /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		3DFC869C1E1FB7900030556C /* View2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View2.xib; sourceTree = "<group>"; };
+		3DFC869F1E1FB7B70030556C /* View3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
+		3DFC86A01E1FB7B70030556C /* View3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View3.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DFC86631E1FB3C30030556C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFC86771E1FB3C30030556C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFC86821E1FB3C30030556C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DFC865D1E1FB3C30030556C = {
+			isa = PBXGroup;
+			children = (
+				3DFC86681E1FB3C30030556C /* pH Meter */,
+				3DFC867D1E1FB3C30030556C /* pH MeterTests */,
+				3DFC86881E1FB3C30030556C /* pH MeterUITests */,
+				3DFC86671E1FB3C30030556C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DFC86671E1FB3C30030556C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DFC86661E1FB3C30030556C /* pH Meter.app */,
+				3DFC867A1E1FB3C30030556C /* pH MeterTests.xctest */,
+				3DFC86851E1FB3C30030556C /* pH MeterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DFC86681E1FB3C30030556C /* pH Meter */ = {
+			isa = PBXGroup;
+			children = (
+				3DFC86691E1FB3C30030556C /* AppDelegate.swift */,
+				3DFC866B1E1FB3C30030556C /* ViewController.swift */,
+				3DFC866D1E1FB3C30030556C /* Main.storyboard */,
+				3DFC869B1E1FB7900030556C /* View2.swift */,
+				3DFC869C1E1FB7900030556C /* View2.xib */,
+				3DFC869F1E1FB7B70030556C /* View3.swift */,
+				3DFC86A01E1FB7B70030556C /* View3.xib */,
+				3DFC86971E1FB57C0030556C /* View1.swift */,
+				3DFC86981E1FB57C0030556C /* View1.xib */,
+				3DFC86701E1FB3C30030556C /* Assets.xcassets */,
+				3DFC86721E1FB3C30030556C /* LaunchScreen.storyboard */,
+				3DFC86751E1FB3C30030556C /* Info.plist */,
+				3D823F981E22969000EDBF71 /* View4.swift */,
+				3D823F991E22969000EDBF71 /* View4.xib */,
+			);
+			path = "pH Meter";
+			sourceTree = "<group>";
+		};
+		3DFC867D1E1FB3C30030556C /* pH MeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DFC867E1E1FB3C30030556C /* pH_MeterTests.swift */,
+				3DFC86801E1FB3C30030556C /* Info.plist */,
+			);
+			path = "pH MeterTests";
+			sourceTree = "<group>";
+		};
+		3DFC86881E1FB3C30030556C /* pH MeterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DFC86891E1FB3C30030556C /* pH_MeterUITests.swift */,
+				3DFC868B1E1FB3C30030556C /* Info.plist */,
+			);
+			path = "pH MeterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DFC86651E1FB3C30030556C /* pH Meter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFC868E1E1FB3C30030556C /* Build configuration list for PBXNativeTarget "pH Meter" */;
+			buildPhases = (
+				3DFC86621E1FB3C30030556C /* Sources */,
+				3DFC86631E1FB3C30030556C /* Frameworks */,
+				3DFC86641E1FB3C30030556C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pH Meter";
+			productName = "pH Meter";
+			productReference = 3DFC86661E1FB3C30030556C /* pH Meter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DFC86791E1FB3C30030556C /* pH MeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFC86911E1FB3C30030556C /* Build configuration list for PBXNativeTarget "pH MeterTests" */;
+			buildPhases = (
+				3DFC86761E1FB3C30030556C /* Sources */,
+				3DFC86771E1FB3C30030556C /* Frameworks */,
+				3DFC86781E1FB3C30030556C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DFC867C1E1FB3C30030556C /* PBXTargetDependency */,
+			);
+			name = "pH MeterTests";
+			productName = "pH MeterTests";
+			productReference = 3DFC867A1E1FB3C30030556C /* pH MeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DFC86841E1FB3C30030556C /* pH MeterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFC86941E1FB3C30030556C /* Build configuration list for PBXNativeTarget "pH MeterUITests" */;
+			buildPhases = (
+				3DFC86811E1FB3C30030556C /* Sources */,
+				3DFC86821E1FB3C30030556C /* Frameworks */,
+				3DFC86831E1FB3C30030556C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DFC86871E1FB3C30030556C /* PBXTargetDependency */,
+			);
+			name = "pH MeterUITests";
+			productName = "pH MeterUITests";
+			productReference = 3DFC86851E1FB3C30030556C /* pH MeterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DFC865E1E1FB3C30030556C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = A.S.D.Vinay;
+				TargetAttributes = {
+					3DFC86651E1FB3C30030556C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 29W627EGMX;
+						ProvisioningStyle = Automatic;
+					};
+					3DFC86791E1FB3C30030556C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 29W627EGMX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DFC86651E1FB3C30030556C;
+					};
+					3DFC86841E1FB3C30030556C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 29W627EGMX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DFC86651E1FB3C30030556C;
+					};
+				};
+			};
+			buildConfigurationList = 3DFC86611E1FB3C30030556C /* Build configuration list for PBXProject "pH Meter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DFC865D1E1FB3C30030556C;
+			productRefGroup = 3DFC86671E1FB3C30030556C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DFC86651E1FB3C30030556C /* pH Meter */,
+				3DFC86791E1FB3C30030556C /* pH MeterTests */,
+				3DFC86841E1FB3C30030556C /* pH MeterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DFC86641E1FB3C30030556C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFC86741E1FB3C30030556C /* LaunchScreen.storyboard in Resources */,
+				3DFC86711E1FB3C30030556C /* Assets.xcassets in Resources */,
+				3D823F9B1E22969000EDBF71 /* View4.xib in Resources */,
+				3DFC86A21E1FB7B70030556C /* View3.xib in Resources */,
+				3DFC869A1E1FB57C0030556C /* View1.xib in Resources */,
+				3DFC869E1E1FB7900030556C /* View2.xib in Resources */,
+				3DFC866F1E1FB3C30030556C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFC86781E1FB3C30030556C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFC86831E1FB3C30030556C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DFC86621E1FB3C30030556C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFC866C1E1FB3C30030556C /* ViewController.swift in Sources */,
+				3D823F9A1E22969000EDBF71 /* View4.swift in Sources */,
+				3DFC86A11E1FB7B70030556C /* View3.swift in Sources */,
+				3DFC86991E1FB57C0030556C /* View1.swift in Sources */,
+				3DFC866A1E1FB3C30030556C /* AppDelegate.swift in Sources */,
+				3DFC869D1E1FB7900030556C /* View2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFC86761E1FB3C30030556C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFC867F1E1FB3C30030556C /* pH_MeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFC86811E1FB3C30030556C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFC868A1E1FB3C30030556C /* pH_MeterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DFC867C1E1FB3C30030556C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DFC86651E1FB3C30030556C /* pH Meter */;
+			targetProxy = 3DFC867B1E1FB3C30030556C /* PBXContainerItemProxy */;
+		};
+		3DFC86871E1FB3C30030556C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DFC86651E1FB3C30030556C /* pH Meter */;
+			targetProxy = 3DFC86861E1FB3C30030556C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DFC866D1E1FB3C30030556C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DFC866E1E1FB3C30030556C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DFC86721E1FB3C30030556C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DFC86731E1FB3C30030556C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DFC868C1E1FB3C30030556C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DFC868D1E1FB3C30030556C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DFC868F1E1FB3C30030556C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29W627EGMX;
+				INFOPLIST_FILE = "pH Meter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.a.s.d..pH-Meter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3DFC86901E1FB3C30030556C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29W627EGMX;
+				INFOPLIST_FILE = "pH Meter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.a.s.d..pH-Meter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3DFC86921E1FB3C30030556C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 29W627EGMX;
+				INFOPLIST_FILE = "pH MeterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.a.s.d..pH-MeterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pH Meter.app/pH Meter";
+			};
+			name = Debug;
+		};
+		3DFC86931E1FB3C30030556C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 29W627EGMX;
+				INFOPLIST_FILE = "pH MeterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.a.s.d..pH-MeterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pH Meter.app/pH Meter";
+			};
+			name = Release;
+		};
+		3DFC86951E1FB3C30030556C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 29W627EGMX;
+				INFOPLIST_FILE = "pH MeterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.a.s.d..pH-MeterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "pH Meter";
+			};
+			name = Debug;
+		};
+		3DFC86961E1FB3C30030556C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 29W627EGMX;
+				INFOPLIST_FILE = "pH MeterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.a.s.d..pH-MeterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "pH Meter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DFC86611E1FB3C30030556C /* Build configuration list for PBXProject "pH Meter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFC868C1E1FB3C30030556C /* Debug */,
+				3DFC868D1E1FB3C30030556C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DFC868E1E1FB3C30030556C /* Build configuration list for PBXNativeTarget "pH Meter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFC868F1E1FB3C30030556C /* Debug */,
+				3DFC86901E1FB3C30030556C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DFC86911E1FB3C30030556C /* Build configuration list for PBXNativeTarget "pH MeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFC86921E1FB3C30030556C /* Debug */,
+				3DFC86931E1FB3C30030556C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DFC86941E1FB3C30030556C /* Build configuration list for PBXNativeTarget "pH MeterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFC86951E1FB3C30030556C /* Debug */,
+				3DFC86961E1FB3C30030556C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DFC865E1E1FB3C30030556C /* Project object */;
+}
